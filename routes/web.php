@@ -14,7 +14,31 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+Route::get('/camps', function () {
+    return view('camps');
+});
+Route::get('/productions', function () {
+    return view('productions');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/checkout', function () {
+    return view('checkout.index');
+});
+Route::get('/profile', function () {
+    return view('user.profile');
+});
+Route::get('/sign-up', function () {
+    return view('user.sign-up');
+});
+Route::get('/sign-in', function () {
+    return view('user.sign-in');
+});
+Route::get('/reset-password', function () {
+    return view('user.reset-password');
 });
 
 Route::middleware([

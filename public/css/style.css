@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.koox-300 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.koox-400 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.koox-500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.koox-700 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.bg-koox {
+    background-color: transparent;
+}
+nav {
+    background-color: #000;
+}
+.nav-link {
+    color: #fff !important;
+}
+.btn-primary {
+    background: rgb(255, 166, 0);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: rgb(24, 162, 3);
+    border: none;
+}
+
+header {
+    margin-top: 5.5em;
+}
+
+.method {
+    background-image: url(/img/rec-amarillo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+} @media (max-width:992px) {
+    .method {
+        background-position: center 70px;
+        background-size: cover;
+    }
+}
+
+#includes i {
+    font-size: 1.5em;
+    color: orange;
+}
+
+#team {
+    background-image: url(/img/team/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#team h1, #team h4, #team p {
+    color: #fff;
+}
+
+#camp-card li{
+    list-style: none;
+}
+
+#camp-card .card {
+    border: none;
+    box-shadow: 0px 0px 10px 1px rgba(197, 197, 197, 0.2);
+    border-radius: 10px;
+}
+
+#film-camps {
+    margin-top: 5em;
+}
+
+#maps {
+   padding-top: 7em;
+}
+li {
+    list-style: none;
+}
+.glider-prev {
+    display: none;
+}
+.glider-next {
+    display: none;
+}
+
+.pad {
+    padding: 6.5em;
+} @media (max-width:1100px) {
+    .pad {
+        padding: 0;
+        margin-top: 6em;
+    }
+}
+
+.pad-1 {
+    padding: 8.5em 8.5em 3.5em 8.5em;
+} @media (max-width:1100px) {
+    .pad-1 {
+        padding: 0;
+        margin-top: 7.5em;
+        margin-bottom: 2em;
+    }
+}
+
+.video iframe{
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer a  {
+    color: #fff;
+}
