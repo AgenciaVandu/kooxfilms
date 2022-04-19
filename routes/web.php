@@ -48,3 +48,9 @@ Route::get('/sign-in', function () {
 Route::get('/reset-password', function () {
     return view('user.reset-password');
 });
+
+Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
