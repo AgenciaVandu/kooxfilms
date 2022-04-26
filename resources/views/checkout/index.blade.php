@@ -1,13 +1,68 @@
 @extends('layouts.layout')
 @section('content')
     <div class="container">
-        <div class="py-5 text-center">
-            <img class="d-block mx-auto mb-4" src="/img/bco-logo.png" height="72">
+        <div class="py-5 mt-5 text-center">
+            {{-- <img class="d-block mx-auto mb-4" src="/img/bco-logo.png" height="72"> --}}
             <h2>Checkout form</h2>
         </div>
 
         <div class="row">
-            <div class="col-md-12 order-md-12 mb-4">
+            <div class="col-lg-6 col-md-12 col-sm-12 pt-2">
+                <form action="" method="POST">
+                    <div class="form-row">
+                        <div class="col gelion-bold">
+                            <label for="formGroupExampleInput">{{ __('First name*') }}</label>
+                            <input type="text" class="form-control" name="name" id="name" required>
+                        </div>
+                        <div class="col gelion-bold">
+                            <label for="formGroupExampleInput">{{ __('Last name*') }}</label>
+                            <input type="text" class="form-control" name="last_name" id="apellidos" required>
+                        </div>
+                        <div class="col gelion-bold">
+                            <label for="phone">{{ __('phone:*') }}</label>
+                            <input type="text" id="phone" class="form-control" name="phone" required>
+                        </div>
+                    </div>
+                    {{-- <div class="pt-3 gelion-bold" id="f-emprendedor">
+                        <!--Emprendedor-->
+                        <label for="formGroupExampleInput">{{ __('Empresa (opcional)') }}</label>
+                        <input type="text" class="form-control" name="bussiness">
+                    </div> --}}
+                    {{-- <div class="pt-3 gelion-bold">
+                        <label for="formGroupExampleInput">{{ __('País') }}</label>
+                        <select class="form-control">
+                            <option value="">{{ __('México') }}</option>
+                            <option value="">{{ __('Estados Unidos') }}</option>
+                        </select>
+                    </div> --}}
+                    <div class="form-group gelion-bold pt-3">
+                        <label for="inputAddress">{{ __('Adress:*') }}</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="8mile"
+                            name="address" required>
+                    </div>
+                    <div class="form-group gelion-bold">
+                        <label for="inputCity">{{ __('City') }}</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Merida" name="city"
+                            required>
+                    </div>
+                    {{-- <div class="form-group gelion-bold">
+                        <label for="inputCity">{{ __('Town') }}</label>
+                        <input type="text" class="form-control" id="inputState" placeholder="México" name="state"
+                            required>
+                    </div> --}}
+                    <div class="form-group gelion-bold">
+                        <label for="inputCity">{{ __('Postal Code') }}</label>
+                        <input type="text" class="form-control" id="inputState" placeholder="97999"
+                            name="postal_code" required>
+                    </div>
+                    {{-- <div class="mb-3 gelion-bold">
+                        <label for="validationTextarea">{{ __('message') }}</label>
+                        <textarea class="form-control" id="validationTextarea"
+                            placeholder="{{ __('Déjanos tu mensaje') }}" name="message" required></textarea>
+                    </div> --}}
+                    <div type="submit" class="btn btn-primary gelion-bold mt-2">{{ __('Return') }}</div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12  mb-4">
                 <h4 class="d-flex justify-content-between align-items-center mb-3">
                     <span class="text-muted">Your cart</span>
                 </h4>
@@ -27,12 +82,7 @@
                         <strong>${{ number_format($value,2) }}</strong>
                     </li>
                 </ul>
-            </div>
-        </div>
-        <section>
-            <div class="container">
-                <div class="col-12 text-center">
-                    <script src="https://www.paypal.com/sdk/js?client-id=AZFyAuYNV73PeiMypk9c3YRNTdP9IuX4R0EQVxVMg9fiBF96s-pZxMABY7OnAbJl9tU-vAT92ACmcReW&currency=USD"></script>
+                <script src="https://www.paypal.com/sdk/js?client-id=AZFyAuYNV73PeiMypk9c3YRNTdP9IuX4R0EQVxVMg9fiBF96s-pZxMABY7OnAbJl9tU-vAT92ACmcReW&currency=USD"></script>
 
                     <!-- Set up a container element for the button -->
                     <div id="paypal-button-container"></div>
@@ -74,18 +124,17 @@
                             }
                         }).render('#paypal-button-container');
                     </script>
-                </div>
             </div>
-        </section>
-
-        <footer class="my-5 pt-5 text-muted text-center text-small">
+        </div>
+       
+        {{-- <footer class="my-5 pt-5 text-muted text-center text-small">
             <p class="mb-1">&copy; 2022 Koox Films</p>
             <!-- <ul class="list-inline">
           <li class="list-inline-item"><a href="#">Privacy</a></li>
           <li class="list-inline-item"><a href="#">Terms</a></li>
           <li class="list-inline-item"><a href="#">Support</a></li>
         </ul> -->
-        </footer>
+        </footer> --}}
     </div>
 @endsection
 </body>
