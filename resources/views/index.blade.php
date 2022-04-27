@@ -71,16 +71,111 @@
             KO'OX FILMS INCLUDES
         </h1>
         <div class="row mt-5">
-            <div class="col-lg-4">
-                <i class="fas fa-user" ></i>
-                <h4 class="koox-700">
-                    ACCOMMODATION
-                </h4>
-                <p class="koox-300">
-                    et to know the Ko'ox village, headquarters of the film camps in Tihosuco, Quintana Roo.
-                </p>
+            <div class="d-none d-sm-none d-md-none d-lg-block">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Accommodation
+                        </h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Transportation
+                        </h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Food with 3 meals <br> per day
+                        </h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Basic audiovisual production equipment
+                        </h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Meetings and cultural events
+                        </h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Certified guides
+                        </h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            24 hour security
+                        </h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            24 hours medical accompaniment
+                        </h4>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="d-block d-sm-block d-md-block d-lg-none">
+                <div class="row">
+                    <div class="col-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Accommodation
+                        </h4>
+                    </div>
+                    <div class="col-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Transportation
+                        </h4>
+                    </div>
+                    <div class="col-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Food with 3 meals <br> per day
+                        </h4>
+                    </div>
+                    <div class="col-6">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Basic audiovisual production equipment
+                        </h4>
+                    </div>
+                    <div class="col-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Meetings and cultural events
+                        </h4>
+                    </div>
+                    <div class="col-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            Certified guides
+                        </h4>
+                    </div>
+                    <div class="col-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            24 hour security
+                        </h4>
+                    </div>
+                    <div class="col-6 pt-3">
+                        <i class="fas fa-user" ></i>
+                        <h4 class="koox-300">
+                            24 hours medical accompaniment
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            {{-- <div class="col-lg-4 text-center">
                 <i class="fas fa-user" ></i>
                 <h4 class="koox-700">
                     TRANSPORTATION
@@ -98,7 +193,7 @@
                 <p class="koox-300">
                     Have an encounter with cultural expressions and explore the cinematographic narrative with the Mayan community in Tihosuco Quintana Roo, heiress of a powerful and ancestral culture with a unique historical passage.
                 </p>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
