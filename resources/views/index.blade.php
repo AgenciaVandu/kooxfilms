@@ -24,7 +24,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </button>
-      </div>
+    </div>
   </header>
   <section class="text-center pt-5">
       <div class="container">
@@ -75,51 +75,51 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <h5 class="koox-300">
                             Accommodation
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-bus"></i>
+                        <h5 class="koox-300">
                             Transportation
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <h5 class="koox-300">
                             Food with 3 meals <br> per day
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-video"></i>
+                        <h5 class="koox-300">
                             Basic audiovisual production equipment
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-users"></i>
+                        <h5 class="koox-300">
                             Meetings and cultural events
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-user"></i>
+                        <h5 class="koox-300">
                             Certified guides
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-person-military-pointing"></i>
+                        <h5 class="koox-300">
                             24 hour security
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-stethoscope"></i>
+                        <h5 class="koox-300">
                             24 hours medical accompaniment
-                        </h4>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -127,51 +127,51 @@
                 <div class="row">
                     <div class="col-6">
                         <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <h5 class="koox-300">
                             Accommodation
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-6">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-bus"></i>
+                        <h5 class="koox-300">
                             Transportation
-                        </h4>
+                        </h5>
                     </div>
-                    <div class="col-6">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                    <div class="col-6 pt-2">
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <h5 class="koox-300">
                             Food with 3 meals <br> per day
-                        </h4>
+                        </h5>
                     </div>
-                    <div class="col-6">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                    <div class="col-6 pt-2">
+                        <i class="fa-solid fa-video"></i>
+                        <h5 class="koox-300">
                             Basic audiovisual production equipment
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-users"></i>
+                        <h5 class="koox-300">
                             Meetings and cultural events
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-user"></i>
+                        <h5 class="koox-300">
                             Certified guides
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-person-military-pointing"></i>
+                        <h5 class="koox-300">
                             24 hour security
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-6 pt-3">
-                        <i class="fas fa-user" ></i>
-                        <h4 class="koox-300">
+                        <i class="fa-solid fa-stethoscope"></i>
+                        <h5 class="koox-300">
                             24 hours medical accompaniment
-                        </h4>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -203,13 +203,13 @@
             <div class="col-lg-6 film mt-4 text-center">
                 <div class="campos">
                     <img src="/img/film.png" class="img-fluid" alt="">
-                    <a href="/camps.html" class="btn btn-primary mt-4">DINAMIC CAMP PAY NOW</a>
+                    <a href="{{ route('checkout', 1) }}" class="btn btn-primary mt-4">DINAMIC CAMP PAY NOW</a>
                 </div>
             </div>
             <div class="col-lg-6 audiovisual mt-4 text-center">
                 <div class="campos">
                     <img src="/img/audio.png" class="img-fluid" alt="">
-                    <a href="/camps.html" class="btn btn-primary mt-4">GREAT CAMP PAY NOW</a>
+                    <a href="{{ route('checkout', 2) }}" class="btn btn-primary mt-4">GREAT CAMP PAY NOW</a>
                 </div>
             </div>
         </div>
