@@ -278,13 +278,17 @@
         <div class="row">
             <div class="col-lg-6 film mt-4 text-center">
                 <div class="campos">
-                    <img src="/img/film.png" class="img-fluid" alt="">
+                    <a href="/camps">
+                        <img src="/img/film.jpg" class="img-fluid" alt="">
+                    </a>
                     <a href="{{ route('checkout', 1) }}" class="btn btn-primary mt-4">DINAMIC CAMP PAY NOW</a>
                 </div>
             </div>
             <div class="col-lg-6 audiovisual mt-4 text-center">
                 <div class="campos">
-                    <img src="/img/audio.png" class="img-fluid" alt="">
+                    <a href="/productions">
+                        <img src="/img/audio.jpg" class="img-fluid" alt="">
+                    </a>
                     <a href="{{ route('checkout', 2) }}" class="btn btn-primary mt-4">GREAT CAMP PAY NOW</a>
                 </div>
             </div>
@@ -364,21 +368,21 @@
                         </div>
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
-                                <img src="/img/team/hector.png" class="img-fluid">
+                                <img src="/img/team/jose.png" class="img-fluid">
                                 <h4 class="koox-700 mt-3">ALBERTO POOT<br> <span class="cargo">Field Assistant</span></h4>
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
-                                <img src="/img/team/hector.png" class="img-fluid">
+                                <img src="/img/team/joel.png" class="img-fluid">
                                 <h4 class="koox-700 mt-3">JOEL ZAVALA<br> <span class="cargo">Photografer & Camera Assistant</span></h4>
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
-                                <img src="/img/team/hector.png" class="img-fluid">
+                                <img src="/img/team/nicte.png" class="img-fluid">
                                 <h4 class="koox-700 mt-3">NICTE UC BE<br> <span class="cargo">Make-up Artist</span></h4>
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>

@@ -15,6 +15,15 @@
               <div class="carousel-item">
                 <img src="/img/banner-koox/4.jpg" class="d-block w-100">
               </div>
+              <div class="carousel-item">
+                <img src="/img/banner-koox/5.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/banner-koox/6.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/banner-koox/7.jpg" class="d-block w-100">
+              </div>
             </div>
            <button class="carousel-control-prev" type="button" data-target="#koox-slider" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
