@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Validator;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +37,32 @@ Route::get('/checkout/{camp?}', function ($camp = null) {
     return view('checkout.index',compact('value'));
 })->name('checkout');
 
+Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->get('/register/{camp?}', function ($camp = null) {
+
+    if ($camp == 1) {
+        $value = 1175;
+    }else{
+        $value = 3699;
+    }
+    return view('checkout.index',compact('value'));
+})->name('checkout');
+
+
+Route::post('/sendemail',function(Request $request){
+    $validator = Validator::make($request->all(), [
+        'first_name' => 'required',
+        'last_name' => 'required',
+        'phone' => 'required',
+        'adress' => 'required',
+        'city' => 'required',
+        'postal_code' => 'required',
+    ]);
+    if ($validator->passes()) {
+        return response()->json(['success'=>'Added new records.']);
+    }
+    return response()->json(['error'=>$validator->errors()->all()]);
+
+})->name('sendemail');
 
 Route::get('/profile', function () {
     return view('user.profile');
