@@ -61,7 +61,7 @@
             <div class="row pt-4 pb-4">
                 <div class="col-lg-3 col-md-12 col-sm-12 m-auto text-center">
                     <figure>
-                        <img src="{{asset('/img/bco-logo.png')}}" class="img-fluid" alt="Koox films camps">
+                        <img src="{{asset('/img/logo-bco-negro.png')}}" class="img-fluid" alt="Koox films camps">
                     </figure>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12">
