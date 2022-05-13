@@ -1,7 +1,8 @@
 @extends('layouts.layout')
 @section('content')
-<header>
-    <div id="koox-slider" class="carousel slide" data-ride="carousel">
+<header class="index-video">
+    <video src="{{asset('/video/video.mp4')}}" width="100%" loop muted autoplay></video>
+    {{-- <div id="koox-slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/img/banners/banner-1.png" class="d-block w-100">
@@ -24,7 +25,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </button>
-    </div>
+    </div> --}}
   </header>
   <section class="text-center pt-5">
       <div class="container">
@@ -55,7 +56,7 @@
           </div>
       </div>
   </section>
-  <section class="text-center pt-5">
+  <section class="text-center pt-5 pb-3">
     <div class="container">
       <h1 class="koox-700" style="text-transform: uppercase;"> 
         philosophy
@@ -66,6 +67,81 @@
     </div>
 </section>
 <section id="includes" class="mt-5">
+    <div class="container">
+        <div class="glider-contain">
+            <div class="glider1 pb-5">
+                <div class="px-2 text-center">
+                    <div class="col aliado-elemento text-center">
+                        <i class="fa-solid fa-campground"></i>
+                        <h4 class="koox-700">
+                            Accommodation
+                            </h5>
+                            <p class="koox-300">
+                                In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.
+                            </p>
+                    </div>
+                </div>
+                <div class="px-2 text-center">
+                    <i class="fa-solid fa-bus"></i>
+                    <h4 class="koox-700">
+                        Transportation
+                        </h5>
+                        <p class="koox-300">
+                            Services to the natural locations: jungle, lagoons, underground caves (cenotes) and their surroundings.
+                        </p>
+                </div>
+                <div class="px-2 text-center">
+                    <div class="col aliado-elemento text-center">
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <h4 class="koox-700">
+                            Food with 3 meals per day
+                            </h5>
+                            <p class="koox-300">
+                                Buffet meals per day when we are in the village. (Field work meals will be arranged accordingly  such as lunch  bags)
+                            </p>
+                    </div>
+                </div>
+                <div class="px-2 text-center">
+                    <div class="col aliado-elemento text-center">
+                        <i class="fa-solid fa-users"></i>
+                        <h4 class="koox-700">
+                            Meetings and cultural events
+                            </h5>
+                            <p class="koox-300">
+                                Conversations with active farmers, wood and textile artisans and villagers dedicated to the preservation of ancestral rituals and celebrations.
+                            </p>
+                    </div>
+                </div>
+                <div class="px-2 text-center">
+                    <div class="col aliado-elemento text-center">
+                        <i class="fas fa-user"></i>
+                        <h4 class="koox-700">
+                            Certifed guides
+                            </h5>
+                            <p class="koox-300">
+                                We have specialized guides in the different natural locations of the place.
+                            </p>
+                    </div>
+                </div>
+                <div class="px-2 text-center">
+                    <div class="col aliado-elemento text-center">
+                        <i class="fa-solid fa-person-military-pointing"></i>
+                        <h4 class="koox-700">
+                            24 hours security
+                            </h5>
+                            <p class="koox-300">
+                                We have 24 hours security guard and security cameras.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+        </div>
+    </div>
+</section>
+{{-- <section id="includes" class="mt-5">
     <div class="container text-center">
         <h1 class="koox-700">
             KO'OX FILMS INCLUDES
@@ -175,7 +251,7 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="col-lg-4 text-center">
+            <div class="col-lg-4 text-center">
                 <i class="fas fa-user" ></i>
                 <h4 class="koox-700">
                     TRANSPORTATION
@@ -193,10 +269,10 @@
                 <p class="koox-300">
                     Have an encounter with cultural expressions and explore the cinematographic narrative with the Mayan community in Tihosuco Quintana Roo, heiress of a powerful and ancestral culture with a unique historical passage.
                 </p>
-            </div> --}}
+            </div>
         </div>
     </div>
-</section>
+</section> --}}
 <section id="camps">
     <div class="container tex-center">
         <div class="row">
@@ -215,6 +291,43 @@
         </div>
     </div>
 </section>
+<section id="newsletter" class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="koox-500">Contact us</h3>
+                <p class="koox-300"> For more information or questions contact us here. <br> We will get back to you as soon as possible. Thank you. </p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
+                <form action="">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="form-group">
+                                <input type="email" placeholder="Email"  class="form-control" id="email-info" aria-describedby="email-info-1">
+                              </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-8">
+                                    <button type="submit"  class="btn btn-block btn-dark">Submit</button>
+                                </div>
+                                <div class="row-4">
+                                    <a href="https://api.whatsapp.com/send/?phone=529991447396" style="text-decoration:none; color:#000;" target="blank">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="acept-contact">
+                        <small class="form-check-label text-muted" for="acept-contact">I authorize koox films contact me to provide me with more information</small>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="team">
     <div class="container mt-5">
         <div class="bg-green">
@@ -224,29 +337,50 @@
                         <div class="text-center">
                             <div class=" aliado-elemento text-center">
                                 <img src="/img/team/alvar.png" class="img-fluid">
-                                <h4 class="koox-700 mt-3">ALVAR CANTO</h4>
-                                <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p>
+                                <h4 class="koox-700 mt-3">ALVAR CANTO <br> <span class="cargo">Film Camp Director</span></h4>
+                               {{--  <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
                         <div class="text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/david.png" class="img-fluid">
-                                <h4 class="koox-700 mt-3">DAVID AVILÉS</h4>
-                                <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p>
+                                <h4 class="koox-700 mt-3">DAVID AVILÉS <br> <span class="cargo">Filmmaker</span></h4>
+                                {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/erika.png" class="img-fluid">
-                                <h4 class="koox-700 mt-3">ERIKA ACEVEDO</h4>
-                                <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p>
+                                <h4 class="koox-700 mt-3">ERIKA ACEVEDO <br> <span class="cargo">General Coordinator &  Advertising</span></h4>
+                                {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/hector.png" class="img-fluid">
-                                <h4 class="koox-700 mt-3">HÉCTOR PÉREZ</h4>
-                                <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p>
+                                <h4 class="koox-700 mt-3">HÉCTOR PÉREZ<br> <span class="cargo">Executive Director</span></h4>
+                                {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
+                            </div>
+                        </div>
+                        <div class=" text-center">
+                            <div class="col aliado-elemento text-center">
+                                <img src="/img/team/hector.png" class="img-fluid">
+                                <h4 class="koox-700 mt-3">ALBERTO POOT<br> <span class="cargo">Field Assistant</span></h4>
+                                {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
+                            </div>
+                        </div>
+                        <div class=" text-center">
+                            <div class="col aliado-elemento text-center">
+                                <img src="/img/team/hector.png" class="img-fluid">
+                                <h4 class="koox-700 mt-3">JOEL ZAVALA<br> <span class="cargo">Photografer & Camera Assistant</span></h4>
+                                {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
+                            </div>
+                        </div>
+                        <div class=" text-center">
+                            <div class="col aliado-elemento text-center">
+                                <img src="/img/team/hector.png" class="img-fluid">
+                                <h4 class="koox-700 mt-3">NICTE UC BE<br> <span class="cargo">Make-up Artist</span></h4>
+                                {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
                 </div>

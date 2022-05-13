@@ -37,9 +37,22 @@ nav {
     border: none;
 }
 
-header {
-    margin-top: 5.5em;
+.index-video {
+    margin-top:1em;
+} @media (max-width:550px) {
+    .index-video {
+        margin-top: 5.3em;
+    }
 }
+.header-camps {
+    margin-top: 5.7em;
+}
+.cargo {
+    font-size: .6em;
+    font-weight: 300;
+
+}
+
 
 .method {
     background-image: url(/img/rec-amarillo.png);
@@ -118,7 +131,9 @@ li {
     width: 100%;
     height: 400px;
 }
-
+.fa-whatsapp {
+    font-size: 2em;
+}
 footer {
     background-color: #000;
 }
