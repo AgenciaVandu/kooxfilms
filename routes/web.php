@@ -37,6 +37,7 @@ Route::get('/checkout/{camp?}', function ($camp = null) {
     return view('checkout.index',compact('value'));
 })->name('checkout');
 
+
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->get('/register/{camp?}', function ($camp = null) {
 
     if ($camp == 1) {
@@ -47,6 +48,9 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])-
     return view('checkout.index',compact('value'));
 })->name('checkout');
 
+Route::get('approved/{transaction}', function (Request $request) {
+    return $request->all();
+})->name('approved');
 
 Route::post('/sendemail',function(Request $request){
     $validator = Validator::make($request->all(), [
