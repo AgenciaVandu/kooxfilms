@@ -48,8 +48,8 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])-
     return view('checkout.index',compact('value'));
 })->name('checkout');
 
-Route::get('approved/{transaction}', function (Request $request) {
-    return $request->all();
+Route::get('/approved', function (Request $request) {
+    return redirect()->route('profile.show');
 })->name('approved');
 
 Route::post('/sendemail',function(Request $request){
