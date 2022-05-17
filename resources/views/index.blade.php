@@ -41,12 +41,12 @@
       <div class="bg-overlay">
           <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12 m-auto">
+                <div class="col-lg-5 col-md-12 col-sm-12 m-auto">
                     <h1 class="koox-700" style="text-transform: uppercase;">
                         Working <br class="d-none d-sm-none d-md-none d-lg-block"> method
                     </h1>
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 text-justify pt-4 pb-4">
+                <div class="col-lg-7 col-md-12 col-sm-12 text-justify pt-4 pb-4">
                   With the method of “FREE AND SPONTANEOUS EXPRESSION”, the CREATOR is set immediately in living and socio-culturally real environments where they will learn how to capture the phenomena, the accidents, the ideas and thoughts that flow in such reality that’s being laid out in front of their eyes. Under this concept, we propose a context of ABSOLUTE FREEDOM AND DIRECT EXPERIENCE, with the multiples varieties that reality offers as a way to achieve that every film production is profound and genuine. <br><br>
                   From the very beginning, the CREATORS is considered someone capable of taking what their contexts offer to woven their ideas as part of the process of contacting the space. The experience of reality without filters and its adoption as a substantial element of film discourses is the aim of the “SPONTANEUOS EXPRESSION” method. 
                   <br>
@@ -68,77 +68,95 @@
 </section>
 <section id="includes" class="mt-5">
     <div class="container">
-        <div class="glider-contain">
-            <div class="glider1 pb-5">
-                <div class="px-2 text-center">
-                    <div class="col aliado-elemento text-center">
-                        <i class="fa-solid fa-campground"></i>
+        <div class="carousel__contenedor mb-5">
+            <button aria-label="anterior" class="carousel__anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel__lista">
+                <div class="carousel__elemento"> <!--Elemento a-->
+                    <div class="px-2 text-center">
+                        <div class="col aliado-elemento text-center">
+                            <i class="fa-solid fa-campground"></i>
+                            <h4 class="koox-700">
+                                Accommodation
+                                </h5>
+                                <p class="koox-300">
+                                    In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel__elemento"> <!--Elemento b-->
+                    <div class="px-2 text-center">
+                        <i class="fa-solid fa-bus"></i>
                         <h4 class="koox-700">
-                            Accommodation
+                            Transportation
                             </h5>
                             <p class="koox-300">
-                                In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.
+                                Services to the natural locations: jungle, lagoons, underground caves (cenotes) and their surroundings.
                             </p>
                     </div>
                 </div>
-                <div class="px-2 text-center">
-                    <i class="fa-solid fa-bus"></i>
-                    <h4 class="koox-700">
-                        Transportation
-                        </h5>
-                        <p class="koox-300">
-                            Services to the natural locations: jungle, lagoons, underground caves (cenotes) and their surroundings.
-                        </p>
-                </div>
-                <div class="px-2 text-center">
-                    <div class="col aliado-elemento text-center">
-                        <i class="fa-solid fa-bowl-food"></i>
-                        <h4 class="koox-700">
-                            Food with 3 meals per day
-                            </h5>
-                            <p class="koox-300">
-                                Buffet meals per day when we are in the village. (Field work meals will be arranged accordingly  such as lunch  bags)
-                            </p>
+                <div class="carousel__elemento"> <!--Elemento c-->
+                    <div class="px-2 text-center">
+                        <div class="col aliado-elemento text-center">
+                            <i class="fa-solid fa-bowl-food"></i>
+                            <h4 class="koox-700">
+                                Food with 3 meals per day
+                                </h5>
+                                <p class="koox-300">
+                                    Buffet meals per day when we are in the village. (Field work meals will be arranged accordingly  such as lunch  bags)
+                                </p>
+                        </div>
                     </div>
                 </div>
-                <div class="px-2 text-center">
-                    <div class="col aliado-elemento text-center">
-                        <i class="fa-solid fa-users"></i>
-                        <h4 class="koox-700">
-                            Meetings and cultural events
-                            </h5>
-                            <p class="koox-300">
-                                Conversations with active farmers, wood and textile artisans and villagers dedicated to the preservation of ancestral rituals and celebrations.
-                            </p>
+                <div class="carousel__elemento"> <!--Elemento d-->
+                    <div class="px-2 text-center">
+                        <div class="col aliado-elemento text-center">
+                            <i class="fa-solid fa-users"></i>
+                            <h4 class="koox-700">
+                                Meetings and cultural events
+                                </h5>
+                                <p class="koox-300">
+                                    Conversations with active farmers, wood and textile artisans and villagers dedicated to the preservation of ancestral rituals and celebrations.
+                                </p>
+                        </div>
                     </div>
                 </div>
-                <div class="px-2 text-center">
-                    <div class="col aliado-elemento text-center">
-                        <i class="fas fa-user"></i>
-                        <h4 class="koox-700">
-                            Certifed guides
-                            </h5>
-                            <p class="koox-300">
-                                We have specialized guides in the different natural locations of the place.
-                            </p>
+                <div class="carousel__elemento"> <!--Elemento e-->
+                    <div class="px-2 text-center">
+                        <div class="px-2 text-center">
+                            <div class="col aliado-elemento text-center">
+                                <i class="fas fa-user"></i>
+                                <h4 class="koox-700">
+                                    Certifed guides
+                                    </h5>
+                                    <p class="koox-300">
+                                        We have specialized guides in the different natural locations of the place.
+                                    </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="px-2 text-center">
-                    <div class="col aliado-elemento text-center">
-                        <i class="fa-solid fa-person-military-pointing"></i>
-                        <h4 class="koox-700">
-                            24 hours security
-                            </h5>
-                            <p class="koox-300">
-                                We have 24 hours security guard and security cameras.
-                            </p>
+                <div class="carousel__elemento"> <!--Elemento e-->
+                    <div class="px-2 text-center">
+                        <div class="col aliado-elemento text-center">
+                            <i class="fa-solid fa-person-military-pointing"></i>
+                            <h4 class="koox-700">
+                                24 hours security
+                                </h5>
+                                <p class="koox-300">
+                                    We have 24 hours security guard and security cameras.
+                                </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <button aria-label="Previous" class="glider-prev">«</button>
-            <button aria-label="Next" class="glider-next">»</button>
-            <div role="tablist" class="dots"></div>
+            <button aria-label="siguiente" class="carousel__siguiente">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
+        <div role="tablist" class="carousel__indicadores"></div>  
     </div>
 </section>
 {{-- <section id="includes" class="mt-5">
@@ -305,19 +323,20 @@
             <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                 <form action="">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-lg-8 col-sm-12">
                             <div class="form-group">
                                 <input type="email" placeholder="Email"  class="form-control" id="email-info" aria-describedby="email-info-1">
                               </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-sm-12">
                             <div class="row">
-                                <div class="col-8">
+                                <div class="col-10">
                                     <button type="submit"  class="btn btn-block btn-dark">Submit</button>
                                 </div>
-                                <div class="row-4">
-                                    <a href="https://api.whatsapp.com/send/?phone=529991447396" style="text-decoration:none; color:#000;" target="blank">
-                                        <i class="fab fa-whatsapp"></i>
+                                <div class="col-2">
+                                    <a href="https://api.whatsapp.com/send/?phone=529991447396" style="text-decoration:none; color:#000;" target="blanK_">
+                                        <img src="/img/whatsapp-brands.svg" width="30" alt="icono whatsapp">
+                                        {{-- <i class="fab fa-whatsapp"></i> --}}
                                     </a>
                                 </div>
                             </div>
@@ -336,8 +355,12 @@
     <div class="container mt-5">
         <div class="bg-green">
             <h1 class="koox-700 text-center pt-5 pb-4">TEAM KO’OX</h1>
-            <div class="glider-contain">
-                <div class="glider pb-5">
+            <div class="carousel__contenedor mb-5">
+                <button aria-label="anterior" class="carousel__anterior1">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel__lista1">
+                    <div class="carousel__elemento"> <!--Elemento a-->
                         <div class="text-center">
                             <div class=" aliado-elemento text-center">
                                 <img src="/img/team/alvar.png" class="img-fluid">
@@ -345,6 +368,8 @@
                                {{--  <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
+                    </div>
+                    <div class="carousel__elemento"> <!--Elemento b-->
                         <div class="text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/david.png" class="img-fluid">
@@ -352,6 +377,8 @@
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
+                    </div>
+                    <div class="carousel__elemento"> <!--Elemento c-->
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/erika.png" class="img-fluid">
@@ -359,6 +386,8 @@
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
+                    </div>
+                    <div class="carousel__elemento"> <!--Elemento d-->
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/hector.png" class="img-fluid">
@@ -366,6 +395,8 @@
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
+                    </div>
+                    <div class="carousel__elemento"> <!--Elemento e-->
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/jose.png" class="img-fluid">
@@ -373,6 +404,8 @@
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
+                    </div>
+                    <div class="carousel__elemento"> <!--Elemento e-->
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/joel.png" class="img-fluid">
@@ -380,6 +413,8 @@
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
+                    </div>
+                    <div class="carousel__elemento"> <!--Elemento e-->
                         <div class=" text-center">
                             <div class="col aliado-elemento text-center">
                                 <img src="/img/team/nicte.png" class="img-fluid">
@@ -387,11 +422,14 @@
                                 {{-- <p style="font-size: .8em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsa? Nisi laudantium expedita ipsam facilis. Eos cupiditate, eum praesentium sequi dolorum quam consequuntur porro odit ipsam ea, amet distinctio saepe!</p> --}}
                             </div>
                         </div>
+                    </div>
                 </div>
-                <button aria-label="Previous" class="glider-prev">«</button>
-                <button aria-label="Next" class="glider-next">»</button>
-                <div role="tablist" class="dots"></div>
+                <button aria-label="siguiente" class="carousel__siguiente1">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
+            <div role="tablist" class="carousel__indicadores1"></div>  
+           
         </div>
     </div>
 </section>

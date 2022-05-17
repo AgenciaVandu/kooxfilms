@@ -173,144 +173,97 @@
             </div>
         </div>
     </section>
-    <section id="includes" class="mt-5 mb-5">
-        <div class="container text-center">
-            <h1 class="koox-700 pt-3 pb-5">
-                KO'OX FILMS INCLUDES
-            </h1>
-            {{-- <div class="d-none d-sm-none d-md-none d-lg-block">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <i class="fas fa-user" ></i>
-                        <h5 class="koox-500">
-                            Accommodation
-                        </h5>
-                        <p class="koox-300" style="font-size: .8em">In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.</p>
+    <section id="includes" class="mt-5">
+        <div class="container">
+            <div class="carousel__contenedor mb-5">
+                <button aria-label="anterior" class="carousel__anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel__lista">
+                    <div class="carousel__elemento"> <!--Elemento a-->
+                        <div class="px-2 text-center">
+                            <div class="col aliado-elemento text-center">
+                                <i class="fa-solid fa-campground"></i>
+                                <h4 class="koox-700">
+                                    Accommodation
+                                    </h5>
+                                    <p class="koox-300">
+                                        In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.
+                                    </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <i class="fa-solid fa-bus"></i>
-                        <h5 class="koox-500">
-                            Transportation
-                        </h5>
-                        <p class="koox-300" style="font-size: .8em">Services to the natural locations: jungle, lagoons, underground caves (cenotes) and their surroundings.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <i class="fa-solid fa-bowl-food"></i>
-                        <h5 class="koox-500">
-                            Food with 3 meals per day
-                        </h5>
-                        <p class="koox-300" style="font-size: .8em">Buffet meals per day when we are in the village. (Field work meals will be arranged accordingly  such as lunch  bags)</p>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fa-solid fa-user"></i>
-                        <h5 class="koox-500">
-                            Certified guides
-                        </h5>
-                        <p class="koox-300" style="font-size: .8em">We have specialized guides in the different natural locations of the place.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fa-solid fa-person-military-pointing"></i>
-                        <h5 class="koox-500">
-                            24 hour security
-                        </h5>
-                        <p class="koox-300" style="font-size: .8em">We have 24 hours security guard and security cameras.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <i class="fa-solid fa-video"></i>
-                        <h5 class="koox-500">
-                            Basic audiovisual production equipment
-                        </h5>
-                        <p class="koox-300" style="font-size: .8em">In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fa-solid fa-users"></i>
-                        <h5 class="koox-500">
-                            Meetings and cultural events
-                        </h5>
-                        <p class="koox-300" style="font-size: .8em">Conversations with active farmers, wood and textile artisans and villagers dedicated to the preservation of ancestral rituals and celebrations.
-                        </p>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 pt-3">
-                        <i class="fa-solid fa-stethoscope"></i>
-                        <h5 class="koox-500">
-                            24 hours medical accompaniment
-                        </h5>
-                        <p class="koox-300" style="font-size: 1em">In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.</p>
-                    </div>
-                </div>
-            </div> --}}
-            <div class="glider-contain">
-                <div class="glider1 pb-5">
-                    <div class="px-2 text-center">
-                        <div class="col aliado-elemento text-center">
-                            <i class="fa-solid fa-campground"></i>
+                    <div class="carousel__elemento"> <!--Elemento b-->
+                        <div class="px-2 text-center">
+                            <i class="fa-solid fa-bus"></i>
                             <h4 class="koox-700">
-                                Accommodation
+                                Transportation
                                 </h5>
                                 <p class="koox-300">
-                                    In the Villa KO’OX FILMS headquaters in Tihosuco, Quintana Roo.
+                                    Services to the natural locations: jungle, lagoons, underground caves (cenotes) and their surroundings.
                                 </p>
                         </div>
                     </div>
-                    <div class="px-2 text-center">
-                        <i class="fa-solid fa-bus"></i>
-                        <h4 class="koox-700">
-                            Transportation
-                            </h5>
-                            <p class="koox-300">
-                                Services to the natural locations: jungle, lagoons, underground caves (cenotes) and their surroundings.
-                            </p>
-                    </div>
-                    <div class="px-2 text-center">
-                        <div class="col aliado-elemento text-center">
-                            <i class="fa-solid fa-bowl-food"></i>
-                            <h4 class="koox-700">
-                                Food with 3 meals per day
-                                </h5>
-                                <p class="koox-300">
-                                    Buffet meals per day when we are in the village. (Field work meals will be arranged accordingly  such as lunch  bags)
-                                </p>
+                    <div class="carousel__elemento"> <!--Elemento c-->
+                        <div class="px-2 text-center">
+                            <div class="col aliado-elemento text-center">
+                                <i class="fa-solid fa-bowl-food"></i>
+                                <h4 class="koox-700">
+                                    Food with 3 meals per day
+                                    </h5>
+                                    <p class="koox-300">
+                                        Buffet meals per day when we are in the village. (Field work meals will be arranged accordingly  such as lunch  bags)
+                                    </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="px-2 text-center">
-                        <div class="col aliado-elemento text-center">
-                            <i class="fa-solid fa-users"></i>
-                            <h4 class="koox-700">
-                                Meetings and cultural events
-                                </h5>
-                                <p class="koox-300">
-                                    Conversations with active farmers, wood and textile artisans and villagers dedicated to the preservation of ancestral rituals and celebrations.
-                                </p>
+                    <div class="carousel__elemento"> <!--Elemento d-->
+                        <div class="px-2 text-center">
+                            <div class="col aliado-elemento text-center">
+                                <i class="fa-solid fa-users"></i>
+                                <h4 class="koox-700">
+                                    Meetings and cultural events
+                                    </h5>
+                                    <p class="koox-300">
+                                        Conversations with active farmers, wood and textile artisans and villagers dedicated to the preservation of ancestral rituals and celebrations.
+                                    </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="px-2 text-center">
-                        <div class="col aliado-elemento text-center">
-                            <i class="fas fa-user"></i>
-                            <h4 class="koox-700">
-                                Certifed guides
-                                </h5>
-                                <p class="koox-300">
-                                    We have specialized guides in the different natural locations of the place.
-                                </p>
+                    <div class="carousel__elemento"> <!--Elemento e-->
+                        <div class="px-2 text-center">
+                            <div class="px-2 text-center">
+                                <div class="col aliado-elemento text-center">
+                                    <i class="fas fa-user"></i>
+                                    <h4 class="koox-700">
+                                        Certifed guides
+                                        </h5>
+                                        <p class="koox-300">
+                                            We have specialized guides in the different natural locations of the place.
+                                        </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="px-2 text-center">
-                        <div class="col aliado-elemento text-center">
-                            <i class="fa-solid fa-person-military-pointing"></i>
-                            <h4 class="koox-700">
-                                24 hours security
-                                </h5>
-                                <p class="koox-300">
-                                    We have 24 hours security guard and security cameras.
-                                </p>
+                    <div class="carousel__elemento"> <!--Elemento e-->
+                        <div class="px-2 text-center">
+                            <div class="col aliado-elemento text-center">
+                                <i class="fa-solid fa-person-military-pointing"></i>
+                                <h4 class="koox-700">
+                                    24 hours security
+                                    </h5>
+                                    <p class="koox-300">
+                                        We have 24 hours security guard and security cameras.
+                                    </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <button aria-label="Previous" class="glider-prev">«</button>
-                <button aria-label="Next" class="glider-next">»</button>
-                <div role="tablist" class="dots"></div>
+                <button aria-label="siguiente" class="carousel__siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
+            <div role="tablist" class="carousel__indicadores"></div>  
         </div>
     </section>
 @endsection

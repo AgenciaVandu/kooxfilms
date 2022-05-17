@@ -55,7 +55,8 @@ nav {
 
 
 .method {
-    background-image: url(/img/rec-amarillo.png);
+   
+    background-image: url(/img/bg-ama.png);
     background-position: right;
     background-repeat: no-repeat;
 } @media (max-width:992px) {
@@ -63,7 +64,13 @@ nav {
         background-position: center 70px;
         background-size: cover;
     }
-}
+}/* @media(max-width:1450px){
+    .method {
+        background-image: url(/img/rec-amarillo.png);
+        background-position: 430px right;
+        background-repeat: no-repeat;
+    }
+} */
 
 #includes i {
     font-size: 1.5em;
@@ -71,10 +78,11 @@ nav {
 }
 
 #team {
-    background-image: url(/img/team/bg.png);
+    background-image: url(/img/team/bg-1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 2em;
 }
 
 #team h1, #team h4, #team p {
@@ -131,9 +139,117 @@ li {
     width: 100%;
     height: 400px;
 }
-.fa-whatsapp {
+/* .fa-whatsapp {
     font-size: 2em;
+} */
+
+.carousel__contenedor {
+    position: relative;
 }
+.carousel__anterior,
+.carousel__siguiente {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #0d2828;
+    opacity: 20%;
+} @media (max-width: 700px) {
+    .carousel__anterior,
+    .carousel__siguiente {
+        display: none;
+    }
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+    opacity: 100%;
+}
+
+.carousel__anterior {
+    left: -50px;
+}
+
+.carousel__siguiente {
+    right: -50px;
+}
+
+.carousel__indicadores .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #000;
+    opacity: .2;
+    border-radius: none;
+}
+
+.carousel__indicadores .glider-dot:hover {
+    opacity: 1;
+}
+
+.carousel__indicadores .glider-dot.active {
+    opacity: 1;
+    background-color: #000;
+}
+
+.carousel__anterior1,
+.carousel__siguiente1 {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #0d2828;
+    opacity: 50%;
+} @media (max-width: 700px) {
+    .carousel__anterior1,
+    .carousel__siguiente1 {
+        display: none;
+    }
+}
+
+.carousel__anterior1:hover,
+.carousel__siguiente1:hover {
+    opacity: 100%;
+}
+
+.carousel__anterior1 {
+    left: -50px;
+}
+
+.carousel__siguiente1 {
+    right: -50px;
+}
+
+.carousel__indicadores1 .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #000;
+    opacity: .2;
+    border-radius: none;
+}
+
+.carousel__indicadores1 .glider-dot:hover {
+    opacity: 1;
+}
+
+.carousel__indicadores1 .glider-dot.active {
+    opacity: 1;
+    background-color: #000;
+}
+
 footer {
     background-color: #000;
 }

@@ -29,14 +29,14 @@
                      </div>
                      <div class="form-group">
                         <label for="inputNumber">Number</label>
-                        <input type="tel" class="form-control" id="inputNumber" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        <input type="tel" class="form-control" id="inputNumber" name="phone" pattern="[0-9]{10}">
                       </div>
                      <div class="form-group">
                         <label for="inputState">City</label>
                         <input type="city" class="form-control" id="inputState">
                       </div>
                      <button type="submit" class="btn btn-primary">Send</button>
-                     <button type="submit" class="btn btn-primary">FILMMAKING CAMPS</button>
+                     <a href="/camps" type="submit" class="btn btn-primary">FILMMAKING CAMPS</a>
                    </form>
                </div>
                <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
