@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Inscription;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Validator;
@@ -45,10 +46,15 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])-
     }else{
         $value = 3699;
     }
-    return view('checkout.index',compact('value'));
+    return view('checkout.index',compact('value','camp'));
 })->name('checkout');
 
 Route::get('/approved', function (Request $request) {
+    Inscription::create([
+        'transaction_id' => $request->idTransaction,
+        'camp_id' => $request->camp,
+        'user_id' => auth()->user()->id,
+    ]);
     return redirect()->route('profile.show');
 })->name('approved');
 

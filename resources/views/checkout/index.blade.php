@@ -93,7 +93,7 @@
                                 var transaction = orderData.purchase_units[0].payments.captures[0];
                                 if (transaction.status === 'COMPLETED') {
 
-                                    location.href = "/approved/?idTransaction=" + transaction.id;
+                                    location.href = "/approved/?idTransaction=" + transaction.id+"&camp={{ $camp }}";
                                     /* alert('Transaction ' + transaction.status + ': ' + transaction.id +
                                     '\n\nSee console for all available details'); */
                                 } else {
