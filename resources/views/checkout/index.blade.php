@@ -65,7 +65,7 @@
                     </li>
                 </ul>
                 <script
-                    src="https://www.paypal.com/sdk/js?client-id=AZFyAuYNV73PeiMypk9c3YRNTdP9IuX4R0EQVxVMg9fiBF96s-pZxMABY7OnAbJl9tU-vAT92ACmcReW&currency=USD">
+                    src="https://www.paypal.com/sdk/js?client-id=AdIt9n8OOaLPKWDzOUa3W1Vvfho9Qf4dP1ZnUSq8ns62YtItsq1hUb__0xiPovcZX1c6_p5b1kg3QADt&currency=USD">
                 </script>
 
                 <!-- Set up a container element for the button -->
