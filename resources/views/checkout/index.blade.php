@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-    <div class="container">
+    <div class="container py-5">
         <div class="py-5 mt-5 text-center">
             {{-- <img class="d-block mx-auto mb-4" src="/img/bco-logo.png" height="72"> --}}
             <h2>Checkout form</h2>
@@ -44,7 +44,7 @@
                 </form>
                     <div type="submit" class="btn btn-primary gelion-bold mt-2">{{ __('Return') }}</div>
             </div> --}}
-            <div class="col-lg-12 col-md-12 col-sm-12  mb-4">
+            <div class="col-lg-8 col-md-8 col-sm-8 mx-auto mb-5">
                 <h4 class="d-flex justify-content-between align-items-center mb-3">
                     <span class="text-muted">Your cart</span>
                 </h4>
@@ -65,11 +65,13 @@
                     </li>
                 </ul>
                 <script
-                                src="https://www.paypal.com/sdk/js?client-id=AZFyAuYNV73PeiMypk9c3YRNTdP9IuX4R0EQVxVMg9fiBF96s-pZxMABY7OnAbJl9tU-vAT92ACmcReW&currency=USD">
+                    src="https://www.paypal.com/sdk/js?client-id=AZFyAuYNV73PeiMypk9c3YRNTdP9IuX4R0EQVxVMg9fiBF96s-pZxMABY7OnAbJl9tU-vAT92ACmcReW&currency=USD">
                 </script>
 
                 <!-- Set up a container element for the button -->
-                <div id="paypal-button-container"></div>
+                <div class="block mb-3">
+                    <div id="paypal-button-container"></div>
+                </div>
 
                 <script>
                     paypal.Buttons({
@@ -93,7 +95,8 @@
                                 var transaction = orderData.purchase_units[0].payments.captures[0];
                                 if (transaction.status === 'COMPLETED') {
 
-                                    location.href = "/approved/?idTransaction=" + transaction.id+"&camp={{ $camp }}";
+                                    location.href = "/approved/?idTransaction=" + transaction.id +
+                                        "&camp={{ $camp }}";
                                     /* alert('Transaction ' + transaction.status + ': ' + transaction.id +
                                     '\n\nSee console for all available details'); */
                                 } else {
@@ -117,9 +120,9 @@
         {{-- <footer class="my-5 pt-5 text-muted text-center text-small">
             <p class="mb-1">&copy; 2022 Koox Films</p>
             <!-- <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Privacy</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Support</a></li>
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
         </ul> -->
         </footer> --}}
     </div>
